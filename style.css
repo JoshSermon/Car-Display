@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 :root {
-  --left-bg-color: rgba(87, 84, 236, 0.7);
+  --left-bg-color: rgba(74, 104, 107, 1);
   --right-bg-color: rgba(43, 43, 43, 0.8);
-  --left-btn-hover-color: rgba(87, 84, 236, 1);
-  --right-btn-hover-color: rgba(28, 122, 28, 1);
+  --left-btn-hover-color: rgba(74, 104, 107, 1);
+  --right-btn-hover-color: rgba(128, 143, 151, 1);
   --hover-width: 75%;
   --other-width: 25%;
   --speed: 1000ms;
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #fff;
   position: absolute;
   left: 50%;
@@ -75,7 +75,7 @@ h1 {
 
 .split.left {
   left: 0;
-  background: url("car.jpg");
+  background: url("elephant.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -86,11 +86,12 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: var(--left-bg-color);
+  opacity: 0.4;
 }
 
 .split.right {
   right: 0;
-  background: url("motorbike.jpg");
+  background: url("pexels-rompalli-harish-2235921.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -101,6 +102,7 @@ h1 {
   width: 100%;
   height: 100%;
   background-color: var(--right-bg-color);
+  opacity: 0.8;
 }
 
 .split.right,
